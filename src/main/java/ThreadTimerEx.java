@@ -2,7 +2,7 @@ import java.awt.*;
 import javax.swing.*;
 
 
-public class TimerThread extends Thread {
+class TimerThread extends Thread {
     private JLabel timerLabel;
 
     public TimerThread(JLabel timerLabel) {
