@@ -16,7 +16,7 @@ class TimerThread extends Thread {
             timerLabel.setText(Integer.toString(n));
             n++;
             try{
-                Thread.sleep(1500);
+                Thread.sleep(600);
             }
             catch(InterruptedException e) {
                 return;
