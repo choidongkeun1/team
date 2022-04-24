@@ -22,7 +22,7 @@ class game_Frame extends JFrame implements KeyListener, Runnable{
     boolean KeyRight = false;
     Thread th;
     Toolkit tk = Toolkit.getDefaultToolkit();
-    Image me_img = tk.getImage("src/main/resources/abc.png");
+    Image me_img = tk.getImage("src/main/resources/abc.png"); // 비행기 사진 경로
     Image buffImage; //더블 버퍼링용
     Graphics buffg; //더블 버퍼링용
 
@@ -30,7 +30,7 @@ class game_Frame extends JFrame implements KeyListener, Runnable{
         init();
         start();
 
-        setTitle("슈팅 게임 만들기");
+        setTitle("횡 스크롤 슈팅 게임");
         setSize(f_width, f_height);
         Dimension screen = tk.getScreenSize();
 
